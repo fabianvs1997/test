@@ -1,0 +1,117 @@
+/* ---- reset ---- */
+
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #1d1d1d;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+/* ---- stats.js ---- */
+
+.count-particles {
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13e8e9;
+    font-size: 0.8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+    -webkit-user-select: none;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles {
+    border-radius: 0 0 3px 3px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font: normal normal 20px/20px Verdana, Sans-serif;
+    color: #D4D4D4;
+}
+
+body {
+    background: #2E2E46;
+}
+
+ :hover,
+ :focus {
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
+    border: none 0px;
+}
+
+small {
+    display: inline-block;
+    font-size: 10px;
+}
+
+#menu {
+    background-color: rgb(41, 35, 35);
+    position: fixed;
+    width: auto;
+    height: 100%;
+    list-style: none;
+    line-height: 20px;
+    text-align: right;
+    border-right: 1px solid #D4D4D4;
+}
+
+#menu li a {
+    display: inline-block;
+    padding: 20px;
+    color: #D4D4D4;
+    text-decoration: undeline;
+    border-right: 4px solid transparent;
+}
+
+#menu li a:hover {
+    border-right: 4px solid #D4D4D4;
+}
+
+#menu li a:focus {
+    border-right: 4px solid #D4D4D4;
+}
